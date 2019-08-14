@@ -47,27 +47,6 @@ class App extends Component {
     this.setState({ account });
   };
 
-  async componentDidMount() {
-    //optimistic/pesimistic lesson code with mosh - react
-
-    //const { data } = await httpService.get(config.apiEndpoint + );
-    //console.log(data);
-
-    //Expected(400, 404) - client errors
-    //----Display specific error message
-    // if (ex.response && ex.response.status === 404) alert("somehting");
-    // else {
-    //   console.log("Unexpected error", ex);
-    //   alert("An expected error occurred");
-    // }
-
-    //Unexpected(network down, server down, db dawn, bug)
-    //----Log them
-    //----Display generic and friendly error message to the user
-
-    //this.setState({data: data})
-  }
-
   render() {
     const { currentPage, pageSize, data, account, errors, loading } = this.state;
     return (

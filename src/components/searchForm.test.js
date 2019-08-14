@@ -15,6 +15,10 @@ describe("SearchForm component test", () => {
     expect(SearchForm.defaultProps.handleChange()).toBeUndefined();
   });
 
+  it("should be exported", () => {
+    expect(SearchForm).toBeDefined();
+  });
+
   it("renders without crashing", () => {
     shallow(<SearchForm />);
   });
