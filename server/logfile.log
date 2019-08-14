@@ -1,0 +1,1 @@
+{"level":"error","message":"next is not a functionnext is not a function","stack":"TypeError: next is not a function\n    at getDataFromEthAndSaveToDb (C:\\Users\\bozid\\Desktop\\react and node\\example\\server\\services\\ethereumService.js:33:9)\n    at <anonymous>"}
